@@ -1,0 +1,80 @@
+.popular__header{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.popular__list{
+    display: flex;
+    gap: 40px;
+}
+
+.popular__text{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px;
+}
+
+.popular__item{
+    box-shadow: 1px 1px 20px 2px grey;
+    border-radius: 15px;
+    width: 210px;
+    height: 300px;
+}
+
+.popular__info{
+    color: var(--c4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 115px;
+}
+
+.popular__star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text{
+    font-size: 0.8rem;
+    color: var(--c6);
+}
+
+.popular__bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    button{
+        cursor: pointer;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        color: var(--c3);
+        background: var(--c2);
+        border: none;
+        border-radius: 5px;
+        height: calc(2.4 * var(--offset));
+        width: calc(6.5 * var(--offset));
+        transition: 0.2s all ease-in-out;
+        &:hover{
+            transition: 0.2s all ease-in-out;
+            background: lightgrey;
+            color: var(--c6);
+        }
+    }
+}
+
+.popular__img{
+    transition: 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.photo{
+    overflow: hidden;
+}

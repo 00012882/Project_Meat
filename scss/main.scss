@@ -1,0 +1,28 @@
+@import "app/fonts";
+@import "app/app";
+@import "app/header";
+@import "app/home";
+@import "app/catalogue";
+@import "app/recommended";
+@import "app/delivery";
+@import "app/popular";
+@import "app/recipe";
+@import "app/contact";
+@import "app/footer";
+
+.body, button, input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    padding: 25px 80px 15px 80px;
+}

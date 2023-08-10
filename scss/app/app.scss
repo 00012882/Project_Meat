@@ -1,0 +1,16 @@
+@import "../app/normalize";
+
+html {
+    // colors
+    --c1: #2c3136;
+    --c2: #C03;
+    --c3: #fff;
+    --c4: #6D6D6D;
+    --c5: #DF0000;
+
+    --c6: #000;
+    --c7: #F5F5F5;
+    --c8: #F9F9F9;
+    --c9: #EFEFEF;
+    --offset: max(calc(1 * 1vw), 15px);
+  }
